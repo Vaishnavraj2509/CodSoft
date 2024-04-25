@@ -30,7 +30,7 @@ double sum = calculateSum(marks);
          System.out.println("GRADE OF " + name + " IS: " + grade);
 }
 
-         public static double calculateSum(double[] marks) {                                              //FUNCTION OF SUM IS CREATED...........
+         public static double calculateSum(double[] marks) {                                              //FUNCTION FOR SUM IS CREATED...........
                    double sum = 0.0;
                      for (double mark : marks) {
 
@@ -38,7 +38,7 @@ double sum = calculateSum(marks);
                      }
                      return sum;
                  }
-                 public static double calculateAverage(double sum, int count) {                            //FUNCTION OF AVERAGE IS CREATED................
+                 public static double calculateAverage(double sum, int count) {                            //FUNCTION FOR AVERAGE IS CREATED................
                              return sum / count;
 
 
