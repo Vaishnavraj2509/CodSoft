@@ -43,10 +43,7 @@ public class numbergame {
         }
 
         int guess2=sc.nextInt();
-        // if(guess2>n)
-        //      System.out.println("Try a smaller number.");
-        //      else if(guess2<n)
-        //      System.out.println("Try a larger number.");
+
         if(n==guess2){
             System.out.println("Congratulations! You guessed the correct number.");
         }
