@@ -11,9 +11,6 @@ public class numbergame {
              System.out.print("Enter your guess: ");
              int guess=sc.nextInt();
 
-
-
-
              if(guess>n)
              System.out.println("Try a smaller number.");
              else if(guess<n)
@@ -53,8 +50,4 @@ public class numbergame {
     }
 
 }
-
-
-
-
 
