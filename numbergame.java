@@ -2,12 +2,13 @@ import java.util.*;
 public class numbergame {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
+        Random random = new Random();
+        int n = random.nextInt(100)+1 ; 
         for(int i=1;i<=100;i++){
             System.out.print("  " + i);
         }
      System.out.println("\nGuess the number between 1 and 100. You have 3 attempts.");
 
-            int n=75;
              System.out.print("Enter your guess: ");
              int guess=sc.nextInt();
 
