@@ -3,7 +3,7 @@ public class numbergame {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         Random random = new Random();
-        int n = random.nextInt(100)+1 ; 
+        int n = random.nextInt(100)+1 ;
         for(int i=1;i<=100;i++){
             System.out.print("  " + i);
         }
